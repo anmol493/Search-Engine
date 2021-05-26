@@ -1,0 +1,326 @@
+2021-05-26 12:53:10.425 INFO  (main) [   ] o.e.j.u.log Logging initialized @2244ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-05-26 12:53:10.846 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.34.v20201102; built: 2020-11-02T14:15:39.302Z; git: e46af88704a893fc12cb0e3bf46e2c7b48a009e7; jvm 15+36-1562
+2021-05-26 12:53:10.902 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Users/singh/Downloads/solr-8.8.2/server/contexts/] at interval 0
+2021-05-26 12:53:12.474 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2021-05-26 12:53:12.493 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2021-05-26 12:53:12.493 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2021-05-26 12:53:12.500 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2021-05-26 12:53:12.608 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2021-05-26 12:53:12.619 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.8.2
+2021-05-26 12:53:12.619 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2021-05-26 12:53:12.619 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\singh\Downloads\solr-8.8.2
+2021-05-26 12:53:12.619 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-05-26T12:53:12.619965700Z
+2021-05-26 12:53:12.652 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: C:\Users\singh\Downloads\solr-8.8.2\server\solr
+2021-05-26 12:53:12.653 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\singh\Downloads\solr-8.8.2\server\solr\solr.xml
+2021-05-26 12:53:12.837 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a, but no JMX reporters were configured - adding default JMX reporter.
+2021-05-26 12:53:13.509 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2021-05-26 12:53:13.942 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@39c1fe0b[provider=null,keyStore=null,trustStore=null]
+2021-05-26 12:53:13.942 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@39c1fe0b[provider=null,keyStore=null,trustStore=null]
+2021-05-26 12:53:14.182 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@6629ad09[provider=null,keyStore=null,trustStore=null]
+2021-05-26 12:53:14.182 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@6629ad09[provider=null,keyStore=null,trustStore=null]
+2021-05-26 12:53:14.266 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2021-05-26 12:53:14.481 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2021-05-26 12:53:14.485 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2021-05-26 12:53:14.587 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:14.587 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:14.594 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:14.709 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 10 core definitions underneath C:\Users\singh\Downloads\solr-8.8.2\server\solr
+2021-05-26 12:53:14.710 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [len1, len2, len3, len4, len5, len6, len7, len8, len9, normal]
+2021-05-26 12:53:14.762 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.8.2
+2021-05-26 12:53:14.762 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.8.2
+2021-05-26 12:53:14.764 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.8.2
+2021-05-26 12:53:15.000 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.s.IndexSchema Schema name=default-config
+2021-05-26 12:53:15.000 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.s.IndexSchema Schema name=default-config
+2021-05-26 12:53:15.000 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.s.IndexSchema Schema name=default-config
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2021-05-26 12:53:15.458 WARN  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2021-05-26 12:53:15.796 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-05-26 12:53:15.796 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-05-26 12:53:15.796 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-05-26 12:53:15.905 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@773cbf4f{/solr,file:///C:/Users/singh/Downloads/solr-8.8.2/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\singh\Downloads\solr-8.8.2\server/solr-webapp/webapp}
+2021-05-26 12:53:15.927 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.c.CoreContainer Creating SolrCore 'len3' using configuration from instancedir C:\Users\singh\Downloads\solr-8.8.2\server\solr\len3, trusted=true
+2021-05-26 12:53:15.930 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@2f17e30d{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2021-05-26 12:53:15.930 INFO  (main) [   ] o.e.j.s.Server Started @7758ms
+2021-05-26 12:53:15.960 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.c.CoreContainer Creating SolrCore 'len1' using configuration from instancedir C:\Users\singh\Downloads\solr-8.8.2\server\solr\len1, trusted=true
+2021-05-26 12:53:15.969 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.len1' (registry 'solr.core.len1') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:15.969 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.len3' (registry 'solr.core.len3') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:15.993 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.c.CoreContainer Creating SolrCore 'len2' using configuration from instancedir C:\Users\singh\Downloads\solr-8.8.2\server\solr\len2, trusted=true
+2021-05-26 12:53:15.995 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.len2' (registry 'solr.core.len2') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:16.004 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.c.SolrCore [[len2] ] Opening new SolrCore at [C:\Users\singh\Downloads\solr-8.8.2\server\solr\len2], dataDir=[C:\Users\singh\Downloads\solr-8.8.2\server\solr\len2\data\]
+2021-05-26 12:53:16.004 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.c.SolrCore [[len1] ] Opening new SolrCore at [C:\Users\singh\Downloads\solr-8.8.2\server\solr\len1], dataDir=[C:\Users\singh\Downloads\solr-8.8.2\server\solr\len1\data\]
+2021-05-26 12:53:16.004 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.c.SolrCore [[len3] ] Opening new SolrCore at [C:\Users\singh\Downloads\solr-8.8.2\server\solr\len3], dataDir=[C:\Users\singh\Downloads\solr-8.8.2\server\solr\len3\data\]
+2021-05-26 12:53:17.407 INFO  (qtp35984028-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=8
+2021-05-26 12:53:17.448 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-05-26 12:53:17.448 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-05-26 12:53:17.478 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-05-26 12:53:17.478 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-05-26 12:53:17.486 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-05-26 12:53:17.487 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-05-26 12:53:17.509 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-05-26 12:53:17.509 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-05-26 12:53:17.510 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-05-26 12:53:17.510 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-05-26 12:53:17.535 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-05-26 12:53:17.535 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-05-26 12:53:17.817 INFO  (qtp35984028-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=418
+2021-05-26 12:53:17.932 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\singh\Downloads\solr-8.8.2\server\solr\len2\conf
+2021-05-26 12:53:17.932 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\singh\Downloads\solr-8.8.2\server\solr\len1\conf
+2021-05-26 12:53:17.932 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\singh\Downloads\solr-8.8.2\server\solr\len3\conf
+2021-05-26 12:53:17.952 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-05-26 12:53:17.952 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-05-26 12:53:17.952 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-05-26 12:53:17.962 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-05-26 12:53:17.962 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-05-26 12:53:17.962 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-05-26 12:53:17.982 INFO  (coreLoadExecutor-13-thread-1) [   x:len1] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-05-26 12:53:17.982 INFO  (coreLoadExecutor-13-thread-2) [   x:len2] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-05-26 12:53:17.982 INFO  (coreLoadExecutor-13-thread-3) [   x:len3] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-05-26 12:53:18.033 INFO  (searcherExecutor-17-thread-1-processing-x:len3) [   x:len3] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 12:53:18.033 INFO  (searcherExecutor-19-thread-1-processing-x:len2) [   x:len2] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 12:53:18.033 INFO  (searcherExecutor-19-thread-1-processing-x:len2) [   x:len2] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-05-26 12:53:18.033 INFO  (searcherExecutor-17-thread-1-processing-x:len3) [   x:len3] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-05-26 12:53:18.044 INFO  (searcherExecutor-19-thread-1-processing-x:len2) [   x:len2] o.a.s.c.SolrCore [len2]  Registered new searcher autowarm time: 0 ms
+2021-05-26 12:53:18.044 INFO  (searcherExecutor-17-thread-1-processing-x:len3) [   x:len3] o.a.s.c.SolrCore [len3]  Registered new searcher autowarm time: 0 ms
+2021-05-26 12:53:18.045 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 12:53:18.045 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-05-26 12:53:18.049 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.c.SolrCore [len1]  Registered new searcher autowarm time: 0 ms
+2021-05-26 12:53:18.050 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.8.2
+2021-05-26 12:53:18.054 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.8.2
+2021-05-26 12:53:18.059 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.8.2
+2021-05-26 12:53:18.108 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.s.IndexSchema Schema name=default-config
+2021-05-26 12:53:18.115 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.s.IndexSchema Schema name=default-config
+2021-05-26 12:53:18.115 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.s.IndexSchema Schema name=default-config
+2021-05-26 12:53:18.120 WARN  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2021-05-26 12:53:18.120 WARN  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2021-05-26 12:53:18.120 WARN  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2021-05-26 12:53:18.120 WARN  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2021-05-26 12:53:18.120 WARN  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2021-05-26 12:53:18.127 WARN  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2021-05-26 12:53:18.127 WARN  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2021-05-26 12:53:18.127 WARN  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2021-05-26 12:53:18.127 WARN  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2021-05-26 12:53:18.127 WARN  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2021-05-26 12:53:18.133 WARN  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2021-05-26 12:53:18.134 WARN  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2021-05-26 12:53:18.134 WARN  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2021-05-26 12:53:18.134 WARN  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2021-05-26 12:53:18.134 WARN  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2021-05-26 12:53:18.231 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-05-26 12:53:18.256 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-05-26 12:53:18.264 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-05-26 12:53:18.324 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.c.CoreContainer Creating SolrCore 'len4' using configuration from instancedir C:\Users\singh\Downloads\solr-8.8.2\server\solr\len4, trusted=true
+2021-05-26 12:53:18.325 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.len4' (registry 'solr.core.len4') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:18.325 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.c.SolrCore [[len4] ] Opening new SolrCore at [C:\Users\singh\Downloads\solr-8.8.2\server\solr\len4], dataDir=[C:\Users\singh\Downloads\solr-8.8.2\server\solr\len4\data\]
+2021-05-26 12:53:18.345 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.c.CoreContainer Creating SolrCore 'len5' using configuration from instancedir C:\Users\singh\Downloads\solr-8.8.2\server\solr\len5, trusted=true
+2021-05-26 12:53:18.346 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.len5' (registry 'solr.core.len5') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:18.347 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.c.SolrCore [[len5] ] Opening new SolrCore at [C:\Users\singh\Downloads\solr-8.8.2\server\solr\len5], dataDir=[C:\Users\singh\Downloads\solr-8.8.2\server\solr\len5\data\]
+2021-05-26 12:53:18.369 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.c.CoreContainer Creating SolrCore 'len6' using configuration from instancedir C:\Users\singh\Downloads\solr-8.8.2\server\solr\len6, trusted=true
+2021-05-26 12:53:18.370 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.len6' (registry 'solr.core.len6') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:18.370 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.c.SolrCore [[len6] ] Opening new SolrCore at [C:\Users\singh\Downloads\solr-8.8.2\server\solr\len6], dataDir=[C:\Users\singh\Downloads\solr-8.8.2\server\solr\len6\data\]
+2021-05-26 12:53:18.437 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-05-26 12:53:18.437 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-05-26 12:53:18.443 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-05-26 12:53:18.444 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-05-26 12:53:18.457 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-05-26 12:53:18.458 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-05-26 12:53:18.466 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-05-26 12:53:18.466 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-05-26 12:53:18.492 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-05-26 12:53:18.492 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-05-26 12:53:18.499 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-05-26 12:53:18.499 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-05-26 12:53:18.502 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\singh\Downloads\solr-8.8.2\server\solr\len4\conf
+2021-05-26 12:53:18.503 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-05-26 12:53:18.503 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-05-26 12:53:18.505 INFO  (coreLoadExecutor-13-thread-3) [   x:len4] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-05-26 12:53:18.511 INFO  (searcherExecutor-33-thread-1-processing-x:len4) [   x:len4] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 12:53:18.511 INFO  (searcherExecutor-33-thread-1-processing-x:len4) [   x:len4] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-05-26 12:53:18.515 INFO  (searcherExecutor-33-thread-1-processing-x:len4) [   x:len4] o.a.s.c.SolrCore [len4]  Registered new searcher autowarm time: 0 ms
+2021-05-26 12:53:18.523 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.8.2
+2021-05-26 12:53:18.542 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\singh\Downloads\solr-8.8.2\server\solr\len6\conf
+2021-05-26 12:53:18.542 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\singh\Downloads\solr-8.8.2\server\solr\len5\conf
+2021-05-26 12:53:18.542 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-05-26 12:53:18.542 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-05-26 12:53:18.543 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-05-26 12:53:18.543 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-05-26 12:53:18.544 INFO  (coreLoadExecutor-13-thread-1) [   x:len6] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-05-26 12:53:18.545 INFO  (coreLoadExecutor-13-thread-2) [   x:len5] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-05-26 12:53:18.548 INFO  (searcherExecutor-37-thread-1-processing-x:len6) [   x:len6] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 12:53:18.548 INFO  (searcherExecutor-37-thread-1-processing-x:len6) [   x:len6] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-05-26 12:53:18.551 INFO  (searcherExecutor-37-thread-1-processing-x:len6) [   x:len6] o.a.s.c.SolrCore [len6]  Registered new searcher autowarm time: 0 ms
+2021-05-26 12:53:18.554 INFO  (searcherExecutor-35-thread-1-processing-x:len5) [   x:len5] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 12:53:18.554 INFO  (searcherExecutor-35-thread-1-processing-x:len5) [   x:len5] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-05-26 12:53:18.557 INFO  (searcherExecutor-35-thread-1-processing-x:len5) [   x:len5] o.a.s.c.SolrCore [len5]  Registered new searcher autowarm time: 0 ms
+2021-05-26 12:53:18.566 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.8.2
+2021-05-26 12:53:18.567 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.8.2
+2021-05-26 12:53:18.574 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.s.IndexSchema Schema name=default-config
+2021-05-26 12:53:18.583 WARN  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2021-05-26 12:53:18.583 WARN  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2021-05-26 12:53:18.583 WARN  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2021-05-26 12:53:18.583 WARN  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2021-05-26 12:53:18.583 WARN  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2021-05-26 12:53:18.622 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.s.IndexSchema Schema name=default-config
+2021-05-26 12:53:18.638 WARN  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2021-05-26 12:53:18.638 WARN  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2021-05-26 12:53:18.638 WARN  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2021-05-26 12:53:18.638 WARN  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2021-05-26 12:53:18.638 WARN  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2021-05-26 12:53:18.654 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.s.IndexSchema Schema name=default-config
+2021-05-26 12:53:18.672 WARN  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2021-05-26 12:53:18.672 WARN  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2021-05-26 12:53:18.672 WARN  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2021-05-26 12:53:18.672 WARN  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2021-05-26 12:53:18.672 WARN  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2021-05-26 12:53:18.728 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-05-26 12:53:18.776 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-05-26 12:53:18.790 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-05-26 12:53:18.828 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.c.CoreContainer Creating SolrCore 'len7' using configuration from instancedir C:\Users\singh\Downloads\solr-8.8.2\server\solr\len7, trusted=true
+2021-05-26 12:53:18.829 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.len7' (registry 'solr.core.len7') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:18.829 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.c.SolrCore [[len7] ] Opening new SolrCore at [C:\Users\singh\Downloads\solr-8.8.2\server\solr\len7], dataDir=[C:\Users\singh\Downloads\solr-8.8.2\server\solr\len7\data\]
+2021-05-26 12:53:18.882 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.c.CoreContainer Creating SolrCore 'len8' using configuration from instancedir C:\Users\singh\Downloads\solr-8.8.2\server\solr\len8, trusted=true
+2021-05-26 12:53:18.882 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.len8' (registry 'solr.core.len8') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:18.883 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.c.SolrCore [[len8] ] Opening new SolrCore at [C:\Users\singh\Downloads\solr-8.8.2\server\solr\len8], dataDir=[C:\Users\singh\Downloads\solr-8.8.2\server\solr\len8\data\]
+2021-05-26 12:53:18.886 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.c.CoreContainer Creating SolrCore 'len9' using configuration from instancedir C:\Users\singh\Downloads\solr-8.8.2\server\solr\len9, trusted=true
+2021-05-26 12:53:18.886 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.len9' (registry 'solr.core.len9') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:18.886 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.c.SolrCore [[len9] ] Opening new SolrCore at [C:\Users\singh\Downloads\solr-8.8.2\server\solr\len9], dataDir=[C:\Users\singh\Downloads\solr-8.8.2\server\solr\len9\data\]
+2021-05-26 12:53:18.904 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-05-26 12:53:18.904 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-05-26 12:53:18.914 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-05-26 12:53:18.914 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-05-26 12:53:18.965 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-05-26 12:53:18.967 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-05-26 12:53:18.971 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-05-26 12:53:18.971 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-05-26 12:53:18.975 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-05-26 12:53:18.976 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-05-26 12:53:18.982 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-05-26 12:53:18.982 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-05-26 12:53:19.015 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\singh\Downloads\solr-8.8.2\server\solr\len9\conf
+2021-05-26 12:53:19.015 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-05-26 12:53:19.016 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-05-26 12:53:19.018 INFO  (coreLoadExecutor-13-thread-2) [   x:len9] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-05-26 12:53:19.022 INFO  (searcherExecutor-55-thread-1-processing-x:len9) [   x:len9] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 12:53:19.023 INFO  (searcherExecutor-55-thread-1-processing-x:len9) [   x:len9] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-05-26 12:53:19.025 INFO  (searcherExecutor-55-thread-1-processing-x:len9) [   x:len9] o.a.s.c.SolrCore [len9]  Registered new searcher autowarm time: 0 ms
+2021-05-26 12:53:19.034 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.8.2
+2021-05-26 12:53:19.036 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\singh\Downloads\solr-8.8.2\server\solr\len7\conf
+2021-05-26 12:53:19.037 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-05-26 12:53:19.037 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-05-26 12:53:19.039 INFO  (coreLoadExecutor-13-thread-3) [   x:len7] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-05-26 12:53:19.040 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\singh\Downloads\solr-8.8.2\server\solr\len8\conf
+2021-05-26 12:53:19.041 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-05-26 12:53:19.041 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-05-26 12:53:19.042 INFO  (coreLoadExecutor-13-thread-1) [   x:len8] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-05-26 12:53:19.044 INFO  (searcherExecutor-51-thread-1-processing-x:len7) [   x:len7] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 12:53:19.044 INFO  (searcherExecutor-51-thread-1-processing-x:len7) [   x:len7] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-05-26 12:53:19.047 INFO  (searcherExecutor-51-thread-1-processing-x:len7) [   x:len7] o.a.s.c.SolrCore [len7]  Registered new searcher autowarm time: 0 ms
+2021-05-26 12:53:19.049 INFO  (searcherExecutor-53-thread-1-processing-x:len8) [   x:len8] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 12:53:19.050 INFO  (searcherExecutor-53-thread-1-processing-x:len8) [   x:len8] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-05-26 12:53:19.051 INFO  (searcherExecutor-53-thread-1-processing-x:len8) [   x:len8] o.a.s.c.SolrCore [len8]  Registered new searcher autowarm time: 0 ms
+2021-05-26 12:53:19.079 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.s.IndexSchema Schema name=default-config
+2021-05-26 12:53:19.086 WARN  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2021-05-26 12:53:19.086 WARN  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2021-05-26 12:53:19.086 WARN  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2021-05-26 12:53:19.087 WARN  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2021-05-26 12:53:19.087 WARN  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2021-05-26 12:53:19.260 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-05-26 12:53:19.349 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.c.CoreContainer Creating SolrCore 'normal' using configuration from instancedir C:\Users\singh\Downloads\solr-8.8.2\server\solr\normal, trusted=true
+2021-05-26 12:53:19.350 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.normal' (registry 'solr.core.normal') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f204a1a
+2021-05-26 12:53:19.350 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.c.SolrCore [[normal] ] Opening new SolrCore at [C:\Users\singh\Downloads\solr-8.8.2\server\solr\normal], dataDir=[C:\Users\singh\Downloads\solr-8.8.2\server\solr\normal\data\]
+2021-05-26 12:53:19.434 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-05-26 12:53:19.434 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-05-26 12:53:19.439 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-05-26 12:53:19.439 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-05-26 12:53:19.537 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\singh\Downloads\solr-8.8.2\server\solr\normal\conf
+2021-05-26 12:53:19.538 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-05-26 12:53:19.538 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-05-26 12:53:19.539 INFO  (coreLoadExecutor-13-thread-2) [   x:normal] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-05-26 12:53:19.542 INFO  (searcherExecutor-69-thread-1-processing-x:normal) [   x:normal] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 12:53:19.542 INFO  (searcherExecutor-69-thread-1-processing-x:normal) [   x:normal] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-05-26 12:53:19.545 INFO  (searcherExecutor-69-thread-1-processing-x:normal) [   x:normal] o.a.s.c.SolrCore [normal]  Registered new searcher autowarm time: 0 ms
+2021-05-26 12:53:20.428 INFO  (qtp35984028-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=167
+2021-05-26 12:53:23.163 INFO  (qtp35984028-21) [   x:normal] o.a.s.c.S.Request [normal]  webapp=/solr path=/select params={q=cityName:gur+OR+stateName:gur+OR+aliasCityName:gur&sort=weightage+asc&rows=10} hits=0 status=0 QTime=129
+2021-05-26 12:53:23.188 INFO  (qtp35984028-27) [   x:len3] o.a.s.c.S.Request [len3]  webapp=/solr path=/select params={q=cityName:gur+OR+stateName:gur+OR+aliasCityName:gur&sort=weightage+asc&rows=10} hits=24 status=0 QTime=13
+2021-05-26 12:53:35.043 INFO  (qtp35984028-20) [   x:normal] o.a.s.c.S.Request [normal]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=3
+2021-05-26 12:53:35.052 INFO  (qtp35984028-25) [   x:len5] o.a.s.c.S.Request [len5]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=3
+2021-05-26 12:53:35.061 INFO  (qtp35984028-21) [   x:len4] o.a.s.c.S.Request [len4]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=2
+2021-05-26 12:53:35.071 INFO  (qtp35984028-27) [   x:len3] o.a.s.c.S.Request [len3]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=2
+2021-05-26 12:53:35.082 INFO  (qtp35984028-24) [   x:len2] o.a.s.c.S.Request [len2]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=2
+2021-05-26 12:53:35.097 INFO  (qtp35984028-25) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=4 status=0 QTime=6
+2021-05-26 12:53:39.112 INFO  (qtp35984028-21) [   x:normal] o.a.s.c.S.Request [normal]  webapp=/solr path=/select params={q=cityName:g+OR+stateName:g+OR+aliasCityName:g&sort=weightage+asc&rows=10} hits=2 status=0 QTime=5
+2021-05-26 12:53:39.127 INFO  (qtp35984028-27) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/select params={q=cityName:g+OR+stateName:g+OR+aliasCityName:g&sort=weightage+asc&rows=10} hits=4 status=0 QTime=2
+2021-05-26 12:55:37.741 INFO  (qtp35984028-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=1
+2021-05-26 12:55:37.812 INFO  (qtp35984028-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1622033597177} status=0 QTime=69
+2021-05-26 12:55:37.960 INFO  (qtp35984028-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=218
+2021-05-26 12:55:38.044 INFO  (qtp35984028-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=0
+2021-05-26 12:55:38.099 INFO  (qtp35984028-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1622033597177} status=0 QTime=55
+2021-05-26 12:55:38.219 INFO  (qtp35984028-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=176
+2021-05-26 12:55:40.257 INFO  (qtp35984028-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=0
+2021-05-26 12:55:40.266 INFO  (qtp35984028-19) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1622033740246} status=0 QTime=2
+2021-05-26 12:55:40.269 INFO  (qtp35984028-21) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1622033597179&ts=1622033597179} status=503 QTime=1
+2021-05-26 12:55:40.275 INFO  (qtp35984028-27) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/replication params={wt=json&command=details&_=1622033740246} status=0 QTime=7
+2021-05-26 12:55:40.612 INFO  (qtp35984028-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=353
+2021-05-26 12:55:40.612 INFO  (qtp35984028-25) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/admin/system params={wt=json&_=1622033740246} status=0 QTime=344
+2021-05-26 12:55:43.356 INFO  (qtp35984028-54) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=0
+2021-05-26 12:55:43.523 INFO  (qtp35984028-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=166
+2021-05-26 12:55:54.255 INFO  (qtp35984028-25) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/select params={q=cityName:g&_=1622033597354} hits=4 status=0 QTime=11
+2021-05-26 12:56:28.562 INFO  (qtp35984028-20) [   x:normal] o.a.s.c.S.Request [normal]  webapp=/solr path=/select params={q=cityName:g+OR+stateName:g+OR+aliasCityName:g&sort=weightage+asc&rows=10} hits=2 status=0 QTime=1
+2021-05-26 12:56:28.572 INFO  (qtp35984028-26) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/select params={q=cityName:g+OR+stateName:g+OR+aliasCityName:g&sort=weightage+asc&rows=10} hits=4 status=0 QTime=2
+2021-05-26 12:57:07.504 INFO  (qtp35984028-24) [   x:normal] o.a.s.c.S.Request [normal]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=1
+2021-05-26 12:57:07.515 INFO  (qtp35984028-56) [   x:len5] o.a.s.c.S.Request [len5]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=3
+2021-05-26 12:57:07.521 INFO  (qtp35984028-20) [   x:len4] o.a.s.c.S.Request [len4]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=1
+2021-05-26 12:57:07.529 INFO  (qtp35984028-26) [   x:len3] o.a.s.c.S.Request [len3]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=1
+2021-05-26 12:57:07.540 INFO  (qtp35984028-24) [   x:len2] o.a.s.c.S.Request [len2]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=1
+2021-05-26 12:57:07.552 INFO  (qtp35984028-56) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=4 status=0 QTime=4
+2021-05-26 13:00:54.717 INFO  (qtp35984028-67) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=0
+2021-05-26 13:00:54.718 INFO  (qtp35984028-26) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1622034054694} status=0 QTime=1
+2021-05-26 13:00:54.823 INFO  (qtp35984028-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=1
+2021-05-26 13:00:54.824 INFO  (qtp35984028-27) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1622034054694} status=0 QTime=0
+2021-05-26 13:00:54.933 INFO  (qtp35984028-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=215
+2021-05-26 13:00:55.110 INFO  (qtp35984028-27) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=172
+2021-05-26 13:00:56.184 INFO  (qtp35984028-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=0
+2021-05-26 13:00:56.192 INFO  (qtp35984028-26) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1622033740246} status=0 QTime=8
+2021-05-26 13:00:56.376 INFO  (qtp35984028-54) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=192
+2021-05-26 13:01:16.365 INFO  (qtp35984028-20) [   x:len1] o.a.s.u.p.LogUpdateProcessorFactory [len1]  webapp=/solr path=/update params={commitWithin=1000&overwrite=true&wt=json&_=1622033737717}{deleteByQuery=*:* (-1700826003569377280)} 0 172
+2021-05-26 13:01:17.375 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 13:01:17.385 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.c.SolrCore [len1]  Registered new searcher autowarm time: 7 ms
+2021-05-26 13:01:50.179 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 13:01:50.184 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.c.SolrCore [len1]  Registered new searcher autowarm time: 0 ms
+2021-05-26 13:01:50.525 INFO  (qtp35984028-66) [   x:len1] o.a.s.u.p.LogUpdateProcessorFactory [len1]  webapp=/solr path=/update params={commitWithin=1000&overwrite=true&wt=json&_=1622033737717}{add=[17bc387e-9588-4e9e-b9fd-6a84bb9354bf (1700826036871102464), f5fb6f6b-679c-482f-a78e-19cb99492fcd (1700826036925628416), 79b9a487-cf9c-4b62-8739-50a3d8e1b29a (1700826036926676992), 0c7ed819-5b04-4aab-967b-33e0f6611db1 (1700826036928774144), 8c39da84-a932-4f11-8453-3a9018bdd54a (1700826036929822720), abae9396-9a23-4472-a99a-ed43d7e60956 (1700826036930871296), d38f9fac-6e79-472a-bdbe-3817030f1003 (1700826036934017024), e225a4ee-d708-47f3-9657-bc735d51b687 (1700826036934017025), 15fe53b1-fca2-4f2c-9ab6-be371879545f (1700826036936114176), 18793e6e-bb4a-4758-a1ca-aba0f9967d0e (1700826036937162752), ... (13631 adds)]} 0 2500
+2021-05-26 13:01:50.702 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 13:01:50.704 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.c.SolrCore [len1]  Registered new searcher autowarm time: 0 ms
+2021-05-26 13:01:51.318 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-05-26 13:01:51.322 INFO  (searcherExecutor-16-thread-1-processing-x:len1) [   x:len1] o.a.s.c.SolrCore [len1]  Registered new searcher autowarm time: 0 ms
+2021-05-26 13:01:54.982 INFO  (qtp35984028-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=0
+2021-05-26 13:01:55.175 INFO  (qtp35984028-69) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=192
+2021-05-26 13:02:03.187 INFO  (qtp35984028-54) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/select params={q=cityName:gggg&_=1622033597354} hits=643 status=0 QTime=6
+2021-05-26 13:02:12.840 INFO  (qtp35984028-69) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/select params={q=cityName:gao&_=1622033597354} hits=643 status=0 QTime=1
+2021-05-26 13:02:14.304 INFO  (qtp35984028-54) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/select params={q=cityName:gao&_=1622033597354} hits=643 status=0 QTime=1
+2021-05-26 13:02:44.773 INFO  (qtp35984028-69) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=0
+2021-05-26 13:02:44.774 INFO  (qtp35984028-66) [   x:len2] o.a.s.c.S.Request [len2]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1622033740246} status=0 QTime=1
+2021-05-26 13:02:44.784 INFO  (qtp35984028-54) [   x:len2] o.a.s.c.S.Request [len2]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1622033597179&ts=1622033597179} status=503 QTime=0
+2021-05-26 13:02:44.800 INFO  (qtp35984028-20) [   x:len2] o.a.s.c.S.Request [len2]  webapp=/solr path=/replication params={wt=json&command=details&_=1622033740246} status=0 QTime=17
+2021-05-26 13:02:45.162 INFO  (qtp35984028-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=386
+2021-05-26 13:02:45.163 INFO  (qtp35984028-27) [   x:len2] o.a.s.c.S.Request [len2]  webapp=/solr path=/admin/system params={wt=json&_=1622033740246} status=0 QTime=379
+2021-05-26 13:02:46.896 INFO  (qtp35984028-71) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1622033597177} status=0 QTime=0
+2021-05-26 13:02:47.078 INFO  (qtp35984028-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1622033597178} status=0 QTime=183
+2021-05-26 13:02:57.799 INFO  (qtp35984028-21) [   x:len2] o.a.s.c.S.Request [len2]  webapp=/solr path=/select params={q=cityName:guoa&_=1622033597354} hits=122 status=0 QTime=5
+2021-05-26 13:03:42.838 INFO  (qtp35984028-54) [   x:normal] o.a.s.c.S.Request [normal]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=3
+2021-05-26 13:03:42.846 INFO  (qtp35984028-21) [   x:len5] o.a.s.c.S.Request [len5]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=1
+2021-05-26 13:03:42.853 INFO  (qtp35984028-69) [   x:len4] o.a.s.c.S.Request [len4]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=1
+2021-05-26 13:03:42.865 INFO  (qtp35984028-20) [   x:len3] o.a.s.c.S.Request [len3]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=1
+2021-05-26 13:03:42.874 INFO  (qtp35984028-54) [   x:len2] o.a.s.c.S.Request [len2]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=0 status=0 QTime=1
+2021-05-26 13:03:42.897 INFO  (qtp35984028-21) [   x:len1] o.a.s.c.S.Request [len1]  webapp=/solr path=/select params={q=cityName:ggggg+OR+stateName:ggggg+OR+aliasCityName:ggggg&sort=weightage+asc&rows=10} hits=2222 status=0 QTime=16
